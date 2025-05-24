@@ -1,12 +1,6 @@
-# React + Vite
+このアプリは、**Webカメラと顔認識AI（face-api.js）を使った勤怠管理システム**です。
+React + Vite + Tailwind CSS で構築され、個人の顔を使って出勤・退勤などの勤怠登録ができます。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+顔データはブラウザのローカルストレージにのみ保存され、外部には送信されません。
+GitHub公開時にはテスト用顔データをすべて削除済みです。
+Webカメラが必要です。
